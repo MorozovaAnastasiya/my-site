@@ -1,0 +1,240 @@
+$width-all: 1162px;
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+}
+.contaner {
+  width: $width-all;
+  margin: 0 auto;
+}
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 84px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-top: 100px;
+}
+h2 {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 35px;
+  line-height: 47px;
+  letter-spacing: 1px;
+  color: #000000;
+  text-align: center;
+  margin-top: 60px;
+}
+h3 {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 37px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 30px;
+}
+h4 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  color: #000000;
+  text-transform: uppercase;
+}
+h5 {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 23px;
+  line-height: 31px;
+  color: #000000;
+}
+p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+}
+ul {
+  list-style: none;
+  display: flex;
+  margin-top: 45px;
+  justify-content: space-between;
+}
+a {
+  color: #000000;
+  text-decoration: none;
+}
+a:hover {
+  color: #ff7931;
+}
+li {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-right: 50px;
+}
+li:last-child {
+  margin-right: 0px;
+}
+.underwater_hotel {
+  background: url(../img/underwater_hotel.jpg) 50% 50% #050611 no-repeat;
+  margin-top: 47px;
+  position: relative;
+  height: 464px;
+  /*background-image: linear-gradient(to right, #000000, #062131 60%, #000000);*/
+}
+.icon {
+  background: url(../img/Group.png) no-repeat;
+  width: 55px;
+  height: 55px;
+  position: absolute;
+  top: 20px;
+  left: 49%;
+}
+.p_underwater_hotel {
+  color: #ffffff;
+  margin: 180px auto 0 auto;
+  width: 456px;
+  text-align: center;
+}
+.reviews {
+  display: flex;
+}
+.h4_reviews {
+  margin-top: 44px;
+  text-align: center;
+}
+.h5_reviews {
+  margin-top: 20px;
+  text-align: center;
+}
+.h5_reviews_activ {
+  color: #ff7931;
+}
+.reviews article {
+  margin-right: 25px;
+  margin-top: 20px;
+}
+.reviews article:last-child {
+  margin-right: 0px;
+}
+article h5:hover {
+  color: #ff7931;
+}
+.p_reviews {
+  margin-top: 10px;
+}
+.subscription {
+  background: radial-gradient(circle, #ffffff 353px, #f7f7f7 353px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 33px 0 36px 0;
+  margin-top: 40px;
+}
+.subscription_circle {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+span {
+  text-align: center;
+  margin: 25px auto 0 auto;
+  display: block;
+  width: 100px;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.h5_subscription {
+  margin-top: 25px;
+}
+.p_subscription {
+  width: 60%;
+  text-align: center;
+  margin-top: 10px;
+}
+.a_watch {
+  width: 170px;
+  height: 47px;
+  background: #ff7931;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.h4_watch {
+  margin-right: 5px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.a_watch:hover {
+  color: #ffffff;
+  background: #fd9a65;
+}
+footer {
+  background: #575757;
+  margin-top: 50px;
+  overflow: hidden;
+}
+.footer_nav {
+  margin-bottom: 50px;
+}
+.footer_nav a {
+  color: #ffffff;
+}
+.footer_nav a:hover {
+  color: #ff7931;
+}
+.footer_blok {
+  border-bottom: 1px solid #ffffff;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.soc_icons {
+  display: flex;
+  justify-content: center;
+}
+.soc_icons a {
+  color: #575757;
+  width: 47px;
+  display: block;
+  background: #fff;
+  font-size: 27px;
+  text-align: center;
+  padding: 10px 0;
+  margin: 0 15px 50px 0;
+}
+.soc_icons a:hover {
+  color: #ff7931;
+}
