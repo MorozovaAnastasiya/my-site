@@ -1,5 +1,3 @@
-$width-all: 1162px;
-
 * {
   padding: 0;
   margin: 0;
@@ -12,7 +10,7 @@ body {
   line-height: 21px;
 }
 .contaner {
-  width: $width-all;
+  width: 1162px;
   margin: 0 auto;
 }
 h1 {
@@ -104,7 +102,6 @@ li:last-child {
   margin-top: 47px;
   position: relative;
   height: 464px;
-  /*background-image: linear-gradient(to right, #000000, #062131 60%, #000000);*/
 }
 .icon {
   background: url(../img/Group.png) no-repeat;
